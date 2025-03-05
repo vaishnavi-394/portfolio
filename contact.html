@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo"><span>V</span>-Insight</h1>  
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skill.html">Skills</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <h2>📲 <span>Get In</span> Touch</h2>
+        <div id="particles-js"></div>
+
+        <div class="container">
+            <div class="contact-box">
+                <img src="customer-supoort.jpg" alt="Contact Image"> <!-- Ensure the image path is correct -->
+
+               <form action="thankyou.html" method="POST">
+    <input type="hidden" name="_next" value="thankyou.html">
+    
+    <div class="input-box">
+        <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="input-box">
+        <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="input-box">
+        <input type="tel" name="phone" placeholder="Your Phone">
+    </div>
+    <div class="input-box">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+</form>
+
+                
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="script.js"></script>
+    </section>
+</body>
+</html>
